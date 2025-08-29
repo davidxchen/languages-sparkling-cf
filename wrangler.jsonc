@@ -4,17 +4,15 @@
  */
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
-	"name": "languages-sparkling-cf",
+	"name": "languages-sparkling-sf",
+	"main": "./dist/server/server.mjs",
 	"compatibility_date": "2025-08-29",
-	"compatibility_flags": [
-		"nodejs_compat"
-	],
-	"pages_build_output_dir": "./dist",
+	"assets": {
+		"binding": "ASSETS",
+		"directory": "./dist/browser"
+	},
 	"observability": {
 		"enabled": true
-	},
-	"vars" : {
-		"MY_VARIABLE": "test"
 	}
 	/**
 	 * Smart Placement
