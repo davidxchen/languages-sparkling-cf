@@ -6,6 +6,9 @@
 /out-tsc
 /bazel-out
 
+# generated types
+.astro/
+
 # Node
 /node_modules
 npm-debug.log
@@ -43,3 +46,7 @@ Thumbs.db
 !.dev.vars.example
 .env*
 !.env.example
+
+# environment variables
+.env
+.env.production
