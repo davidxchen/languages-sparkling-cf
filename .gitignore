@@ -6,6 +6,9 @@
 /out-tsc
 /bazel-out
 
+# generated types
+.astro/
+
 # Node
 /node_modules
 npm-debug.log
@@ -21,11 +24,7 @@ yarn-error.log
 *.sublime-workspace
 
 # Visual Studio Code
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
+.vscode/
 .history/*
 
 # Miscellaneous
@@ -47,3 +46,7 @@ Thumbs.db
 !.dev.vars.example
 .env*
 !.env.example
+
+# environment variables
+.env
+.env.production
