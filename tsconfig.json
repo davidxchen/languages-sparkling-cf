@@ -15,7 +15,8 @@
     "target": "ES2022",
     "module": "preserve",
     "types": [
-        "./worker-configuration.d.ts"
+        "./worker-configuration.d.ts",
+        "./types.d.ts",
     ]
   },
   "angularCompilerOptions": {
